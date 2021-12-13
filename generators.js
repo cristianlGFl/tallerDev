@@ -2,8 +2,9 @@ function* iterador() {
     console.log('Inicia Iterador')
 
     yield "Hola Clase...";
-    yield "Iterador 01.."
-    yield "Iterador 02"
+    yield "Iterador 01..";
+    yield "Iterador 02";
+
 
     console.log('Termina Iterador')
 

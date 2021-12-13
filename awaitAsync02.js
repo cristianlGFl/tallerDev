@@ -1,6 +1,7 @@
 require('isomorphic-fetch')
 const getPostAsync = async(idPost) => {
     try {
+        
         const resPost = await fetch(`https://jsonplaceholder.typicode.com/posts/${idPost}`);
         const post = await resPost.json();
 

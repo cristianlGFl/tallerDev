@@ -231,7 +231,7 @@ let dbUsuarios = [{
         }
     }
 ];
-
+//Creamos la promesa 
 function apiUsuarios() {
     return new Promise((resolved, reject) => {
         setTimeout(() => {
